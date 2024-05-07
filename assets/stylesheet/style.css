@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Vampiro+One&display=swap");
+
+body{
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(#ae1324 0%, #e9b91c 40%, #ce7b12 100%);
+}
+
+.bg-light {
+    background: #00000000 !important;
+    /* backdrop-filter: blur(3px);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589); */
+    transition: all 0.5s;
+}
+.bg-light.scrolled {
+    background: #ffffff !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.589);
+    transition: all 0.5s;
+}
+.nav a {
+    color: white;
+}
+.nav a:hover {
+    color: rgb(192, 191, 191);
+}
+.nav.scrolled a {
+    color: rgb(190,71,27);
+}
+.nav.scrolled a:hover {
+    color: rgb(233,185,28);
+}
+.initial {
+    font-family: "Vampiro One", cursive;
+    font-size: 30px;
+    margin: -10px;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+}
+
+.profile h2{
+    color: white;
+}
+.profile h4{
+    color: white;
+    transform: translateY(-10px)
+}
+
+.profileImage{
+    width: 250px;
+    height: 250px;
+}
+
+.biodata{
+    background: linear-gradient(#ffffff 0%, #ffffffd5 40%, #fdfdfd00 100%);
+    transform:  translateY(-10px);
+    padding-bottom: 200px;
+    padding-top: 55px;   
+}
+
+.badge{
+    background: #ce7b12;
+}
+
+.biodata-card{
+    background: #ce7b12;
+    color: white;
+}
+
+.bagde{
+    transform: translateY(-50px);
+}
+
+.row{
+    padding: 0px 10px;
+}
+
+.achievement{
+    padding-top: 55px;
+}
+
+.iconCard{
+    color: black;
+    font-size: 80px;
+}
+.icon{
+    color: black;
+    font-size: 30px;
+    margin-top: 50px;
+}
+
+.footer{
+    background-color: #ffffff;
+    padding-bottom: 25px;
+    transform: translateY(-0.7px);
+}
+
+.contact a{
+    color: black;
+    font-size: 20px;
+}
+
+.copyright{
+    padding-bottom: 10px;
+}

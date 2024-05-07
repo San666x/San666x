@@ -1,0 +1,24 @@
+@media screen and (max-width: 576px) {
+    .img-thumbnail {
+        width: 150px;
+    }
+    .nama h4 {
+        font-size: 20px;
+    }
+    .nama h5 {
+        font-size: 15px;
+    }
+    .toggleSlide {
+        transform: translateX(-85px);
+    }
+    .initial {
+        transform: translateX(-15px);
+    }
+    .buttonToggle {
+        display: inline;
+        margin-top: 8px;
+        padding: 0px 8px;
+    }
+    .nav-item-item {
+        display: none;
+    }
